@@ -1,0 +1,5 @@
+c:\Work\BaR\BackupPLC\develop\GeneratePIL\GeneratePIL\bin\Release\GeneratePIL.exe
+c:\Work\BaR\BackupPLC\develop\GeneratePIL\GeneratePIL\bin\Release\GeneratePIL.pdb
+c:\Work\BaR\BackupPLC\develop\GeneratePIL\GeneratePIL\obj\x86\Release\ResolveAssemblyReference.cache
+c:\Work\BaR\BackupPLC\develop\GeneratePIL\GeneratePIL\obj\x86\Release\GeneratePIL.exe
+c:\Work\BaR\BackupPLC\develop\GeneratePIL\GeneratePIL\obj\x86\Release\GeneratePIL.pdb

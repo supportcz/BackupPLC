@@ -1,0 +1,22 @@
+Pomocí tohoto nástroje lze zazálohovat a posléze opìt nahrát SW z/do PLC.
+
+Jak zazálohovat SW z PLC:
+-Rozbalte BackupPLC.zip soubor do adresáøe. Adresáø bude obsahovat:
+  Modules...prázdnı adresáø do kterého se budou ukládat moduly staené z PLC
+  GeneratePIL.exe...program kterı ze souboru "ModuleList.txt" vytvoøí dávky "Backup.pil" a "Restore.pil"
+  GeneratePIL.pil...hlavní dávka, viz. dále
+-V nástroji Runtime Utility Center (RUC) otevøte dávku "GeneratePIL.pil"
+-upravte v ní první øádek (t.j. spojení do PLC)
+-ulote dávku (Ctrl+S)
+-a spuste ji (F5)
+-Po spuštìní by se v adresáøi mìly objevit soubory:
+  ModuleList.txt...seznam modulù staenı z PLC
+  Backup.pil...dávka pro zazálohování modulù z PLC
+  Restore.pil...dávka pro nahrání modulù do PLC
+  DownloadAR.pil...šablona pro AR download
+-V RUC otevøte dávku "Backup.pil" a spuste ji
+-BR moduly se se stáhnou do adresáøe "Modules"
+
+Jak opìtovnì nahrát SW do PLC:
+-V RUC otevøte dávku "Restore.pil" a spuste ji
+-Po úspìšném nahrání se v adresáøi vytvoøí soubor "ModuleListRestored.txt" se seznamem modulù nahranıch v PLC

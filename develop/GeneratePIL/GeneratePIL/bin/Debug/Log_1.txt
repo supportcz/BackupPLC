@@ -1,0 +1,114 @@
+PROCESS STARTED: 10-10-2013, 16:13:26
+1: @START@ "C:\Work\BaR\BackupPLC\V1.02\develop\GeneratePIL\GeneratePIL\bin\Debug\Restore.pil"
+2: Connection "/IF=COM1 /BD=57600 /PA=2 /IT=1", "", "WT=10"
+Connection "/IF=COM1 /BD=57600 /PA=2 /IT=1", "", "WT=10" SUCCESSFUL
+3: WriteVariableListToPLC ".\Modules\VariableList.txt"
+[Global Variables]
+DI_Dil_zasunut, GLOBAL, BOOL, 1, 0   OK
+DI_Dvere_otevreny, GLOBAL, BOOL, 1, 0   OK
+DI_Dvere_zavreny, GLOBAL, BOOL, 1, 0   OK
+DI_Kamera_inspection_failed, GLOBAL, BOOL, 1, 0   OK
+DI_Kamera_object_not_located, GLOBAL, BOOL, 1, 0   OK
+DI_Kamera_test_ok, GLOBAL, BOOL, 1, 0   OK
+DI_Laser, GLOBAL, BOOL, 1, 0   OK
+DI_Prepinac_reset, GLOBAL, BOOL, 1, 0   OK
+DO_Kamera_1, GLOBAL, BOOL, 1, 1   OK
+DO_Kamera_2, GLOBAL, BOOL, 1, 0   OK
+DO_Kamera_3, GLOBAL, BOOL, 1, 0   OK
+DO_Kamera_4, GLOBAL, BOOL, 1, 0   OK
+DO_Lampa_ruda, GLOBAL, BOOL, 1, 0   OK
+DO_Lampa_zelena, GLOBAL, BOOL, 1, 0   OK
+DO_Laser, GLOBAL, BOOL, 1, 0   OK
+DO_Podsviceni_kamery, GLOBAL, BOOL, 1, 0   OK
+DO_Sirena, GLOBAL, BOOL, 1, 0   OK
+DO_Tisk_modra, GLOBAL, BOOL, 1, 0   OK
+DO_Tisk_zluta, GLOBAL, BOOL, 1, 0   OK
+DO_Ventil_dvere_otevrit, GLOBAL, BOOL, 1, 0   OK
+DO_Ventil_dvere_zavrit, GLOBAL, BOOL, 1, 0   OK
+Pocty_smaz, GLOBAL, USINT, 1, 0   OK
+bResult_NOK, GLOBAL, BOOL, 1, 0   OK
+bResult_OK, GLOBAL, BOOL, 1, 0   OK
+iCisloHlaseni, GLOBAL, UINT, 2, 0   OK
+iCisloSceny, GLOBAL, USINT, 1, 0   OK
+iCisloVadneDrazky, GLOBAL, USINT, 1, 0   OK
+iPasswordLevel, GLOBAL, USINT, 1, 0   OK
+iPocitadlo, GLOBAL, UINT, 2, 0   OK
+iPocitadloNOK, GLOBAL, UINT, 2, 0   OK
+iPocitadloNOK_EU, GLOBAL, UINT, 2, 0   OK
+iPocitadloNOK_US, GLOBAL, UINT, 2, 0   OK
+iPocitadloOK, GLOBAL, UINT, 2, 0   OK
+iPocitadloOK_EU, GLOBAL, UINT, 2, 0   OK
+iPocitadloOK_US, GLOBAL, UINT, 2, 0   OK
+iResetNOK_EU, GLOBAL, UINT, 2, 0   OK
+iResetNOK_US, GLOBAL, UINT, 2, 0   OK
+iTypOperky, GLOBAL, UINT, 2, 1   OK
+stepHlavni, GLOBAL, USINT, 1, 0   OK
+WriteVariableListToPLC ".\Modules\VariableList.txt" SUCCESSFUL
+4: @END@ "C:\Work\BaR\BackupPLC\V1.02\develop\GeneratePIL\GeneratePIL\bin\Debug\Restore.pil"
+PROCESS FINISHED (SUCCESS): 10-10-2013, 16:13:33
+PROCESS STARTED: 10-10-2013, 16:14:45
+1: @START@ "C:\Work\BaR\BackupPLC\V1.02\develop\GeneratePIL\GeneratePIL\bin\Debug\Restore.pil"
+2: Connection "/IF=COM1 /BD=57600 /PA=2 /IT=1", "", "WT=10"
+Connection "/IF=COM1 /BD=57600 /PA=2 /IT=1", "", "WT=10" SUCCESSFUL
+3: Stop
+Stop SUCCESSFUL
+4: Download ".\Modules\Hlavni.br", "ROM"
+Download ".\Modules\Hlavni.br", "ROM" SUCCESSFUL
+5: WriteVariableListToPLC ".\Modules\VariableList.txt"
+[Global Variables]
+Failed to write value of variable "DI_Dil_zasunut" (PVI Error # 4816: Read error variable list).
+PROCESS ABORTED: 10-10-2013, 16:15:04
+PROCESS STARTED: 10-10-2013, 16:15:51
+1: @START@ "C:\Work\BaR\BackupPLC\V1.02\develop\GeneratePIL\GeneratePIL\bin\Debug\Restore.pil"
+2: Connection "/IF=COM1 /BD=57600 /PA=2 /IT=1", "", "WT=10"
+Connection "/IF=COM1 /BD=57600 /PA=2 /IT=1", "", "WT=10" SUCCESSFUL
+3: Stop "65535"
+Stop "65535" SUCCESSFUL
+4: Download ".\Modules\Hlavni.br", "ROM"
+Download ".\Modules\Hlavni.br", "ROM" SUCCESSFUL
+5: Stop "65535"
+Stop "65535" SUCCESSFUL
+6: WriteVariableListToPLC ".\Modules\VariableList.txt"
+[Global Variables]
+DI_Dil_zasunut, GLOBAL, BOOL, 1, 0   OK
+DI_Dvere_otevreny, GLOBAL, BOOL, 1, 0   OK
+DI_Dvere_zavreny, GLOBAL, BOOL, 1, 0   OK
+DI_Kamera_inspection_failed, GLOBAL, BOOL, 1, 0   OK
+DI_Kamera_object_not_located, GLOBAL, BOOL, 1, 0   OK
+DI_Kamera_test_ok, GLOBAL, BOOL, 1, 0   OK
+DI_Laser, GLOBAL, BOOL, 1, 0   OK
+DI_Prepinac_reset, GLOBAL, BOOL, 1, 0   OK
+DO_Kamera_1, GLOBAL, BOOL, 1, 1   OK
+DO_Kamera_2, GLOBAL, BOOL, 1, 0   OK
+DO_Kamera_3, GLOBAL, BOOL, 1, 0   OK
+DO_Kamera_4, GLOBAL, BOOL, 1, 0   OK
+DO_Lampa_ruda, GLOBAL, BOOL, 1, 0   OK
+DO_Lampa_zelena, GLOBAL, BOOL, 1, 0   OK
+DO_Laser, GLOBAL, BOOL, 1, 0   OK
+DO_Podsviceni_kamery, GLOBAL, BOOL, 1, 0   OK
+DO_Sirena, GLOBAL, BOOL, 1, 0   OK
+DO_Tisk_modra, GLOBAL, BOOL, 1, 0   OK
+DO_Tisk_zluta, GLOBAL, BOOL, 1, 0   OK
+DO_Ventil_dvere_otevrit, GLOBAL, BOOL, 1, 0   OK
+DO_Ventil_dvere_zavrit, GLOBAL, BOOL, 1, 0   OK
+Pocty_smaz, GLOBAL, USINT, 1, 0   OK
+bResult_NOK, GLOBAL, BOOL, 1, 0   OK
+bResult_OK, GLOBAL, BOOL, 1, 0   OK
+iCisloHlaseni, GLOBAL, UINT, 2, 0   OK
+iCisloSceny, GLOBAL, USINT, 1, 0   OK
+iCisloVadneDrazky, GLOBAL, USINT, 1, 0   OK
+iPasswordLevel, GLOBAL, USINT, 1, 0   OK
+iPocitadlo, GLOBAL, UINT, 2, 0   OK
+iPocitadloNOK, GLOBAL, UINT, 2, 0   OK
+iPocitadloNOK_EU, GLOBAL, UINT, 2, 0   OK
+iPocitadloNOK_US, GLOBAL, UINT, 2, 0   OK
+iPocitadloOK, GLOBAL, UINT, 2, 0   OK
+iPocitadloOK_EU, GLOBAL, UINT, 2, 0   OK
+iPocitadloOK_US, GLOBAL, UINT, 2, 0   OK
+iResetNOK_EU, GLOBAL, UINT, 2, 0   OK
+iResetNOK_US, GLOBAL, UINT, 2, 0   OK
+iTypOperky, GLOBAL, UINT, 2, 1   OK
+stepHlavni, GLOBAL, USINT, 1, 0   OK
+WriteVariableListToPLC ".\Modules\VariableList.txt" SUCCESSFUL
+7: Warmstart
+PROCESS ABORTED: 10-10-2013, 16:16:28

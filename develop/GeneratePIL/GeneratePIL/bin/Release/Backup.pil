@@ -1,0 +1,4 @@
+Connection "/IF=COM6 /BD=57600 /PA=2 /IT=1", "", "WT=30"
+Upload "$$sysconf", ".\Modules\$$sysconf.br"
+Upload "_ramp_po", ".\Modules\_ramp_po.br"
+Upload "aplib", ".\Modules\aplib.br"

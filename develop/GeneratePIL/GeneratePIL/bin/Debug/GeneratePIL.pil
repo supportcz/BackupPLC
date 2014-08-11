@@ -1,0 +1,5 @@
+Connection "/IF=COM1 /BD=57600 /PA=2 /IT=1", "", "WT=10"
+SSWVersion
+ModuleList ".\ModuleList.txt"
+Call "GeneratePIL.exe", "ModuleList.txt"
+

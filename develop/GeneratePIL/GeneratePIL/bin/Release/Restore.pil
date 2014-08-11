@@ -1,0 +1,10 @@
+Connection "/IF=COM6 /BD=57600 /PA=2 /IT=1", "", "WT=30"
+Diagnose
+DeleteMemory ROM
+Coldstart
+Download ".\Modules\$$sysconf.br", "ROM"
+Coldstart
+Download ".\Modules\_ramp_po.br", "ROM"
+Download ".\Modules\aplib.br", "ROM"
+Warmstart
+ModuleList ".\ModuleListRestored.txt"

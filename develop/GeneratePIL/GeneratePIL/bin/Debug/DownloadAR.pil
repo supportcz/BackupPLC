@@ -1,0 +1,7 @@
+ARUpdateFileGenerate ".\Modules\CP474V22.S17", ".\Modules\ARUpdate.br", ""
+Connection "/IF=COM1 /BD=57600 /PA=2 /IT=1", "", "WT=10"
+Diagnose
+DeleteMemory ROM
+Coldstart
+Download ".\Modules\ARUpdate.br", "ROM"
+Coldstart

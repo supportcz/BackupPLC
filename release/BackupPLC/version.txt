@@ -1,0 +1,14 @@
+1.3
+-The tool was not working with german version of RUC
+-Added icon to GeneratePIL.exe
+
+1.2
+-Now also all global variables are backed up and restored
+
+1.1
+-Application modules were not supported
+-It is no more needed to edit the first line of Backup.pil and Restore.pil. The connection is copied from GeneratePIL.pil. 
+-Template for AR download (DownloadAR.PIL) is generated
+ 
+1.0 (18.1.2012)
+-First release

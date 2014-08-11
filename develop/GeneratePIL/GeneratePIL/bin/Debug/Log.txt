@@ -1,0 +1,50 @@
+PROCESS STARTED: 10-10-2013, 16:09:32
+1: @START@ "C:\Work\BaR\BackupPLC\V1.02\develop\GeneratePIL\GeneratePIL\bin\Debug\Restore.pil"
+2: Connection "/IF=COM1 /BD=57600 /PA=2 /IT=1", "", "WT=10"
+Connection "/IF=COM1 /BD=57600 /PA=2 /IT=1", "", "WT=10" SUCCESSFUL
+3: Diagnose
+Diagnose SUCCESSFUL
+4: DeleteMemory ROM
+DeleteMemory ROM SUCCESSFUL
+5: Coldstart
+Coldstart SUCCESSFUL
+6: Download ".\Modules\$$sysconf.br", "SYSROM"
+Download ".\Modules\$$sysconf.br", "SYSROM" SUCCESSFUL
+7: Coldstart
+Coldstart SUCCESSFUL
+8: Download ".\Modules\aplib.br", "RAM"
+Download ".\Modules\aplib.br", "RAM" SUCCESSFUL
+9: Download ".\Modules\DataObj.br", "ROM"
+Download ".\Modules\DataObj.br", "ROM" SUCCESSFUL
+10: Download ".\Modules\dbtracer.br", "RAM"
+Download ".\Modules\dbtracer.br", "RAM" SUCCESSFUL
+11: Download ".\Modules\DdPcSer.br", "RAM"
+Download ".\Modules\DdPcSer.br", "RAM" SUCCESSFUL
+12: Download ".\Modules\gcloader.br", "ROM"
+Download ".\Modules\gcloader.br", "ROM" SUCCESSFUL
+13: Download ".\Modules\rtk68k.br", "RAM"
+Download ".\Modules\rtk68k.br", "RAM" SUCCESSFUL
+14: Download ".\Modules\runtime.br", "ROM"
+Download ".\Modules\runtime.br", "ROM" SUCCESSFUL
+15: Download ".\Modules\standard.br", "ROM"
+Download ".\Modules\standard.br", "ROM" SUCCESSFUL
+16: Download ".\Modules\sys_lib.br", "ROM"
+Download ".\Modules\sys_lib.br", "ROM" SUCCESSFUL
+17: Download ".\Modules\vcinter.br", "ROM"
+Download ".\Modules\vcinter.br", "ROM" SUCCESSFUL
+18: Download ".\Modules\Visu.br", "ROM"
+Download ".\Modules\Visu.br", "ROM" SUCCESSFUL
+19: Download ".\Modules\Visu01.br", "RAM"
+Download ".\Modules\Visu01.br", "RAM" SUCCESSFUL
+20: Download ".\Modules\Visu02.br", "RAM"
+Download ".\Modules\Visu02.br", "RAM" SUCCESSFUL
+21: Download ".\Modules\burtrap.br", "ROM"
+Download ".\Modules\burtrap.br", "ROM" SUCCESSFUL
+22: Stop
+Stop SUCCESSFUL
+23: Download ".\Modules\Hlavni.br", "ROM"
+Download ".\Modules\Hlavni.br", "ROM" SUCCESSFUL
+24: WriteVariableListToPLC ".\Modules\VariableList.txt"
+[Global Variables]
+Failed to write value of variable "DI_Dil_zasunut" (PVI Error # 4813: Identification error).
+PROCESS ABORTED: 10-10-2013, 16:12:23

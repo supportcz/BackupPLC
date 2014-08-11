@@ -1,0 +1,15 @@
+C:\Work\BaR\BackupPLC\V1.01\develop\GeneratePIL\GeneratePIL\bin\Release\GeneratePIL.exe
+C:\Work\BaR\BackupPLC\V1.01\develop\GeneratePIL\GeneratePIL\bin\Release\GeneratePIL.pdb
+C:\Work\BaR\BackupPLC\V1.01\develop\GeneratePIL\GeneratePIL\obj\Release\ResolveAssemblyReference.cache
+C:\Work\BaR\BackupPLC\V1.01\develop\GeneratePIL\GeneratePIL\obj\Release\GeneratePIL.exe
+C:\Work\BaR\BackupPLC\V1.01\develop\GeneratePIL\GeneratePIL\obj\Release\GeneratePIL.pdb
+C:\Work\BaR\BackupPLC\V1.02\develop\GeneratePIL\GeneratePIL\bin\Release\GeneratePIL.exe
+C:\Work\BaR\BackupPLC\V1.02\develop\GeneratePIL\GeneratePIL\bin\Release\GeneratePIL.pdb
+C:\Work\BaR\BackupPLC\V1.02\develop\GeneratePIL\GeneratePIL\obj\Release\ResolveAssemblyReference.cache
+C:\Work\BaR\BackupPLC\V1.02\develop\GeneratePIL\GeneratePIL\obj\Release\GeneratePIL.exe
+C:\Work\BaR\BackupPLC\V1.02\develop\GeneratePIL\GeneratePIL\obj\Release\GeneratePIL.pdb
+C:\Work\BaR\BackupPLC\V1.03\develop\GeneratePIL\GeneratePIL\bin\Release\GeneratePIL.exe
+C:\Work\BaR\BackupPLC\V1.03\develop\GeneratePIL\GeneratePIL\bin\Release\GeneratePIL.pdb
+C:\Work\BaR\BackupPLC\V1.03\develop\GeneratePIL\GeneratePIL\obj\Release\ResolveAssemblyReference.cache
+C:\Work\BaR\BackupPLC\V1.03\develop\GeneratePIL\GeneratePIL\obj\Release\GeneratePIL.exe
+C:\Work\BaR\BackupPLC\V1.03\develop\GeneratePIL\GeneratePIL\obj\Release\GeneratePIL.pdb

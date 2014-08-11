@@ -1,0 +1,3 @@
+This tool is not a B&R standard product and therefore not shipped with B&R Automation Studio.
+There is no guarantee for support, error corrections or maintenance of this tool.
+author: roman.vancura@br-automation.com
