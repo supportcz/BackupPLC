@@ -13,3 +13,8 @@ C:\Work\BaR\BackupPLC\V1.03\develop\GeneratePIL\GeneratePIL\bin\Debug\GeneratePI
 C:\Work\BaR\BackupPLC\V1.03\develop\GeneratePIL\GeneratePIL\obj\Debug\ResolveAssemblyReference.cache
 C:\Work\BaR\BackupPLC\V1.03\develop\GeneratePIL\GeneratePIL\obj\Debug\GeneratePIL.exe
 C:\Work\BaR\BackupPLC\V1.03\develop\GeneratePIL\GeneratePIL\obj\Debug\GeneratePIL.pdb
+C:\Work\BaR\BackupPLC\develop\GeneratePIL\GeneratePIL\bin\Debug\GeneratePIL.exe
+C:\Work\BaR\BackupPLC\develop\GeneratePIL\GeneratePIL\bin\Debug\GeneratePIL.pdb
+C:\Work\BaR\BackupPLC\develop\GeneratePIL\GeneratePIL\obj\Debug\GeneratePIL.csprojResolveAssemblyReference.cache
+C:\Work\BaR\BackupPLC\develop\GeneratePIL\GeneratePIL\obj\Debug\GeneratePIL.exe
+C:\Work\BaR\BackupPLC\develop\GeneratePIL\GeneratePIL\obj\Debug\GeneratePIL.pdb
