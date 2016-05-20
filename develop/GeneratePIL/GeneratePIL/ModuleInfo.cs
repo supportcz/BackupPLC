@@ -45,6 +45,7 @@ namespace GeneratePIL
         Unknown,
 
         NCUpdate,
+        OSUpdate,
         ACP10,
 
         #region libraries
@@ -215,7 +216,11 @@ namespace GeneratePIL
                     if (type == ModuleType.OSEXE) return true;
                     if (type == ModuleType.StartUp) return true;
                     if (type == ModuleType.SystemLibrary) return true;
-                    if (type == ModuleType.SystemTask) return true;
+                    if (type == ModuleType.SystemTask)
+                    {
+                        if (name.StartsWith("FF.")) return true;
+                        if (name.StartsWith("$")) return true;
+                    }
                 }
 
                 //otherwise this is not a system module
